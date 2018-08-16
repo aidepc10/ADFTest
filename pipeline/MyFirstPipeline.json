@@ -1,0 +1,17 @@
+{
+	"name": "MyFirstPipeline",
+	"properties": {
+		"description": "running first pipeline",
+		"activities": [
+			{
+				"name": "WaitActivity",
+				"description": "this is a wait activity",
+				"type": "Wait",
+				"typeProperties": {
+					"waitTimeInSeconds": 5
+				}
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
